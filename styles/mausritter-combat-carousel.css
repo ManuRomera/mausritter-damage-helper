@@ -1,0 +1,57 @@
+.mausritter .mcc-apply-damage {
+  border: 2px solid #111;
+  border-radius: 4px;
+  background: #fff;
+  color: #111;
+  cursor: pointer;
+}
+
+.mausritter .mcc-apply-damage:hover {
+  background: #111;
+  color: #fff;
+}
+
+.mausritter .mcc-apply-damage {
+  display: block;
+  width: 100%;
+  margin: 8px 0 4px;
+  padding: 5px 8px;
+  font-family: "Germania One", Garamond, serif;
+  font-size: 16px;
+}
+
+.mausritter .mcc-apply-damage:disabled {
+  opacity: 0.62;
+  cursor: default;
+}
+
+.mcc-damage-summary ul {
+  margin: 8px 0;
+  padding-left: 18px;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+}
+
+.mcc-critical-result p {
+  margin: 8px 0;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+}
+
+.mausritter .mcc-usage-result {
+  margin: 8px 0 4px;
+  padding: 6px 8px;
+  border: 1px solid #806515;
+  border-radius: 4px;
+  background: #fff4bf;
+  color: #3a2d08;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  line-height: 1.35;
+}
+
+.mausritter .mcc-usage-result.is-exhausted {
+  border-color: #8d2525;
+  background: #f8d7d7;
+  color: #641818;
+}

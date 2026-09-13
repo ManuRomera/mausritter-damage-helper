@@ -1,0 +1,9 @@
+{
+  "name": "mausritter-damage-helper",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check scripts/main.js && node scripts/validate.mjs"
+  }
+}

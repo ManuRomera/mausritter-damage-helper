@@ -1,0 +1,65 @@
+{
+  "id": "mausritter-combat-carousel",
+  "title": "Mausritter Damage Helper",
+  "description": "Automatiza el gasto de usos, la aplicación de daño, la armadura y el daño crítico para Mausritter.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Manu Romera / OpenAI"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13",
+    "maximum": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "mausritter",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.3.3",
+          "verified": "0.6.1"
+        }
+      }
+    ],
+    "recommends": [
+      {
+        "id": "mausritter_wdip",
+        "type": "module"
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/mausritter-combat-carousel.css"
+  ],
+  "languages": [
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "url": "https://github.com/ManuRomera/mausritter-damage-helper",
+  "manifest": "https://github.com/ManuRomera/mausritter-damage-helper/releases/latest/download/module.json",
+  "download": "https://github.com/ManuRomera/mausritter-damage-helper/releases/download/v1.0.0/mausritter-damage-helper.zip",
+  "readme": "https://github.com/ManuRomera/mausritter-damage-helper/blob/main/README.md",
+  "bugs": "https://github.com/ManuRomera/mausritter-damage-helper/issues",
+  "changelog": "https://github.com/ManuRomera/mausritter-damage-helper/releases",
+  "license": "https://github.com/ManuRomera/mausritter-damage-helper/blob/main/LICENSE",
+  "media": [
+    {
+      "type": "cover",
+      "url": "https://raw.githubusercontent.com/ManuRomera/mausritter-damage-helper/main/assets/cover.png"
+    }
+  ]
+}

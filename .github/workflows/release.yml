@@ -1,0 +1,31 @@
+name: Build release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate package
+        run: npm run check
+
+      - name: Build module archive
+        run: |
+          zip -r mausritter-damage-helper.zip . \
+            -x '.git/*' '.github/*' 'mausritter-damage-helper.zip' '.DS_Store'
+
+      - name: Publish GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          body_path: CHANGELOG.md
+          files: |
+            module.json
+            mausritter-damage-helper.zip
