@@ -6,7 +6,7 @@ const es = JSON.parse(await readFile(new URL("../lang/es.json", import.meta.url)
 const en = JSON.parse(await readFile(new URL("../lang/en.json", import.meta.url), "utf8"));
 
 assert.equal(manifest.id, "mausritter-combat-carousel");
-assert.equal(manifest.version, "1.0.0");
+assert.equal(manifest.version, "1.0.1");
 assert.equal(manifest.compatibility.minimum, "13");
 assert.equal(manifest.compatibility.verified, "13");
 assert.ok(manifest.manifest.endsWith("/releases/latest/download/module.json"));
