@@ -1,5 +1,9 @@
 # Historial de cambios
 
+## 1.0.1
+
+- Añadido el botón «Créditos» en los ajustes del paquete (Manu Romera · Digital RPG Design). No cambia el juego.
+
 ## 1.0.0
 
 - Compatibilidad declarada y revisada para Foundry VTT v13.

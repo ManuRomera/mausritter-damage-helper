@@ -2,7 +2,7 @@
   "id": "mausritter-combat-carousel",
   "title": "Mausritter Damage Helper",
   "description": "Automatiza el gasto de usos, la aplicación de daño, la armadura y el daño crítico para Mausritter.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     {
       "name": "Manu Romera / OpenAI"
@@ -32,7 +32,8 @@
     ]
   },
   "esmodules": [
-    "scripts/main.js"
+    "scripts/main.js",
+    "scripts/mr-credits.mjs"
   ],
   "styles": [
     "styles/mausritter-combat-carousel.css"
@@ -51,7 +52,7 @@
   ],
   "url": "https://github.com/ManuRomera/mausritter-damage-helper",
   "manifest": "https://github.com/ManuRomera/mausritter-damage-helper/releases/latest/download/module.json",
-  "download": "https://github.com/ManuRomera/mausritter-damage-helper/releases/download/v1.0.0/mausritter-damage-helper.zip",
+  "download": "https://github.com/ManuRomera/mausritter-damage-helper/releases/download/v1.0.1/mausritter-damage-helper.zip",
   "readme": "https://github.com/ManuRomera/mausritter-damage-helper/blob/main/README.md",
   "bugs": "https://github.com/ManuRomera/mausritter-damage-helper/issues",
   "changelog": "https://github.com/ManuRomera/mausritter-damage-helper/releases",
