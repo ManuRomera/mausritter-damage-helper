@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://github.com/ManuRomera/mausritter-damage-helper/releases/latest"><img alt="Latest release" src="https://img.shields.io/github/v/release/ManuRomera/mausritter-damage-helper?include_prereleases&style=for-the-badge&color=a8552a&label=release"></a>
   <a href="https://foundryvtt.com"><img alt="Foundry VTT V13" src="https://img.shields.io/badge/Foundry%20VTT-V13-57d8c8?style=for-the-badge"></a>
-  <a href="https://github.com/ManuRomera/mausritter-damage-helper/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/ManuRomera/mausritter-damage-helper/total?style=for-the-badge&color=ff7a1f"></a>
+  <a href="https://github.com/ManuRomera/mausritter-damage-helper/releases"><img alt="Downloads" src="https://raw.githubusercontent.com/ManuRomera/ManuRomera/main/badges/descargas/mausritter-damage-helper.svg"></a>
   <img alt="System" src="https://img.shields.io/badge/system-mausritter-2b3245?style=for-the-badge">
   <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-MIT-2b3245?style=for-the-badge"></a>
 </p>
